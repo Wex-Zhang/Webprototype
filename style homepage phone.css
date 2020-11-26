@@ -42,10 +42,9 @@ nav li{
 	left: 0px;
 	right: 0px;
 }
-.nav-li {
-  margin-top: 20px;
+
 }
-}
+
 @media screen and (max-width: 885px) {
 nav {
   width: auto;
@@ -162,8 +161,8 @@ nav li{
 }
 /*big screen*/
 .banner-container {
-	max-width: 1300px;
-	height: 650px;
+	max-width: 650px;
+	height: 350px;
 	box-sizing: content-box;
   margin: 0px auto;
   margin-bottom: 80px;
@@ -181,7 +180,9 @@ nav li{
 	overflow: hidden;
 	z-index: -1;
 }
-
+.baimg{
+  width: 650px;
+}
 .banner-list .item {
 	float: left;
 }
@@ -205,13 +206,13 @@ nav li{
 @keyframes banner-swipe {
 	0% { left: 0; }
 	18% {left: 0;}
-	25% { left: -1300px; }
-	43% {left: -1300px;}
-	50% { left: -2600px; }
-	68% { left: -2600px; }
-	75% { left: -3900px; }
-	93% { left: -3900px; }
-	100% { left: -5200px; }
+	25% { left: -650px; }
+	43% {left: -650px;}
+	50% { left: -1300px; }
+	68% { left: -1300px; }
+	75% { left: -1950px; }
+	93% { left: -1950px; }
+	100% { left: -2600px; }
 }
 
 .banner-list {
@@ -274,19 +275,20 @@ width:auto;
 }
 
 .object-cover {object-fit: cover;
+height: 400px;
 }
 
 #wwa-bg {
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   text-align: center;
   z-index: 2;
   background-color: #f1ca1d69;
 }
 
 #wwa-bg > p{
-font-size: 1.5em;
-padding: 50px 50px 30px 30px ;
+font-size: 0.9em;
+padding: 20px 30px ;
 }
 
 .button-cta {
@@ -325,16 +327,16 @@ flex-wrap: wrap;}
 }
 
 #oi-bg {
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   text-align: center;
   z-index: 2;
   background-color: #ffffffdc;
 }
 
 #oi-bg > p{
-font-size: 1.5em;
-padding: 50px 50px 30px 30px ;
+font-size: 0.9em;
+padding: 20px 30px ;
 
 }
 .button-cta {
@@ -359,10 +361,10 @@ z-index: 0;
 position: relative;
 margin: 2px auto;
 top: 0px;
-left: 12vw;
+left: 0;
 right: 0;
 bottom: 0;
-
+visibility: hidden;
 
 }
 #osm {
@@ -381,23 +383,17 @@ bottom: 0;
 position: relative;
 margin: 2px auto;
 top: -720px;
-left: -12vw;
-right: 0;
-bottom: 0;
-
-  
-}
-#os-text {
-  height: auto;
-text-align: center;
-width: 40vw;
-position: relative;
-margin: 2px auto;
-top: -0px;
 left: 0;
 right: 0;
 bottom: 0;
-font-size: 1.5em;
+visibility: hidden;  
+}
+#os-text {
+
+position: relative;
+padding: 20px 30px;
+
+font-size: 0.9em;
 
 }
 h2 {
@@ -444,14 +440,14 @@ justify-content: center;
  margin-bottom: 80px
 }
 #mad-bg {
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   text-align: center;
   z-index: 2;
   background-color: #f1ca1d69;
 }
 .mad-cta {
-  width: 300px;
+  width: 250px;
   display: block;
 	padding: 0.5rem 1rem;
 	color: white;
@@ -461,11 +457,11 @@ justify-content: center;
   font-size: 1.6em;
   background-color: #01965d;
   border-radius: 1em;
-  margin: 30px auto;
+  margin: 20px auto;
 }
 #mad-bg > p{
-font-size: 1.5em;
-padding: 40px 40px 30px 30px ;
+font-size: 0.9em;
+padding: 20px 30px ;
 }
 /* here starts the footer css*/
 #footer-bg {

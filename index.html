@@ -8,42 +8,49 @@
 	<title>Children's Cancer Institute</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Fredoka+One&family=Roboto+Mono:ital,wght@1,700&family=Squada+One&display=swap" rel="stylesheet">
-
-  <link href="style homepage.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style homepage.css" media="screen and (min-width: 650px)">  
+  <link rel="stylesheet" href="style homepage phone.css" media="screen and (max-width: 650px)"> 
 </head>
 <body>
  	<nav>
     <div id="navi-bar">
 		<ul>
-      <li><a href="index.html"><img src="nav img/navlogo.png" alt="123" height="60"></a></li>
+      <li><a href="index.html"><img src="nav img/navlogo.png" alt="123" height="60px" id="nav-img"></a></li>
 			<li class="nav-li"><a href="index.html">Home page</a></li>
-			<li class="nav-li"><a href="donate.html">Make a difference</a></li>
-			<li class="nav-li"><a href="">Impact</a></li>
+			<li class="nav-li"><a href="donate.html">Donate</a></li>
+			<li class="nav-li"><a href="volunteer.html">Volunteer</a></li>
 			<li class="nav-li"><a href="">Story&Event</a></li>
 			<li class="nav-li"><a href="">About us</a></li>
 		</ul>
     </div>
 	</nav>
 <div id="call-to-action">
-<p id="cta-word">Help us cure childhood cancer</p>
-<center><a href="123">PARTICIPATE</a></center>
+  <div id="cta-holder">
+    <div id="cta-left">  
+      <p id="cta-word">Help us cure childhood cancer</p>
+    </div>
+    <div id="cta-right">
+    <a href="donate.html">Donate</a>
+    </div>
+  </div>
 </div>
-<div class="banner">
+<div class="banner-container">
   <div class="banner-wrapper">
   <ul class="banner-list">
    
-   <li class="item" id="item1">1</li>
-   <li class="item" id="item2">2</li>
-   <li class="item" id="item3">3</li>
-   <li class="item" id="item4">4</li>
-   <li class="item" id="item1">1</li>
-   <li class="item" id="item2">2</li>
+   <li class="item" id="item1"><img src="banner img/banner1.JPG"  width="1300px" alt="Who We Are" class="object-cover baimg" ></li>
+   <li class="item" id="item2"><img src="banner img/banner2.jpg"  width="1300px" alt="Who We Are" class="object-cover baimg" ></li>
+   <li class="item" id="item3"><img src="banner img/banner3.jpg"  width="1300px" alt="Who We Are" class="object-cover baimg" ></li>
+   <li class="item" id="item4"><img src="banner img/banner4.jpg"  width="1300px" alt="Who We Are" class="object-cover baimg" ></li>
+   <li class="item" id="item1"><img src="banner img/banner1.JPG"  width="1300px" alt="Who We Are" class="object-cover baimg" ></li>
+   </li>
   </ul>
  </div>
 </div>
 
 <!--here starts the who we are div -->
-
+<center><h2>Who We Are</h2></center>
+<div id="green-box1"></div>
 <div class="container">
   <div id="who-we-are">
     <img src="home page img/who-we-are.png"  height="600px" alt="Who We Are" class="object-cover" >
@@ -78,45 +85,45 @@
     <center><img id="osm" src="home page img/story-middle.png" alt="our stroy image"></center>
     <center><img id="osr" src="home page img/story-right.png" alt="our stroy image"></center>
   </div>
-  <div id="os-text">
-    <p>How quickly life can change. One day Ava Barker was a happy and healthy 18-month-old, and the next, she was in hospital waiting to have a diagnosis of cancer confirmed.</p>
-  </div>
+  
+    <center><p id="os-text">How quickly life can change. One day Ava Barker was a happy and healthy 18-month-old, and the next, she was in hospital waiting to have a diagnosis of cancer confirmed.</p></center>
+ 
   <a id="os-cta" href="" >Learn More</a>
 </div>
 
 <!--here starts make a difference div -->
-
 <center><h2>Make a Difference</h2></center>
 <div id="green-box2"></div>
 
-<div id="who-we-are">
-  <div id="wwa-img">
-    <img src="home page img/mad.png" alt="who we are">
+<div class="container">
+  <div id="make-a-difference">
+    <img src="home page img/mad.png"  height="600px" alt="Who We Are" class="object-cover" >
+    <div id="mad-bg">
+      <p>All children deserve a childhood free from cancer. Join our community of like-minded individuals who are funding future research to end the suffering of children with cancer.</br>
+      No child should die from cancer. By volunteering your time, we can build a better future for children with cancer. </p>
+      <a class="mad-cta" href="" >Donate</a>
+      <a class="mad-cta" href="" >Volunteer today</a>
+    </div> 
   </div>
-  <div id="wwa-text">
-    <p>All children deserve a childhood free from cancer. Join our community of like-minded individuals who are funding future research to end the suffering of children with cancer.</p>
-    <p>No child should die from cancer. By volunteering your time, we can build a better future for children with cancer. </p>
+</div>
+<!--here starts footer div -->
+<footer>
+  <div id="footer-bg">
+    <div id="foot-left">
+      <p>© COPYRIGHT CHILDREN'S CANCER INSTITUTE, ABN 41 072 279 559 | PRIVACY STATEMENT | SITEMAP</p>
+      <p>Address: Level 5, C25 Lowy Cancer Research Centre, Gate 9 High St, UNSW</p>
+      <p>Phone: 1800 685 686</p>
+      <p>Sydney NSW 2052</p>
+    </div>
+    <div id="foot-right">
+      <ul>
+      <li><a href="https://twitter.com/KidsCancerInst"><img src="home page img/twitter.png" alt="twitter"></a></li>
+      <li><a href="https://www.instagram.com/childrenscancerinstitute/"><img src="home page img/ins.png" alt="twitter"></a></li>
+      <li><a href="https://www.facebook.com/KidsCancerInst"><img src="home page img/fb.png" alt="twitter"></a></li>
+      </ul>
+    </div>
   </div>
-  
-  <div id="wwa-bg"></div>
-  <a id="mad-cta" href="" >Donate</a>
-  <a id="mad-cta" href="" >Volunteer today</a>
-</div>
-<footer><div id="footer-bg">
-<div id="foot-left"><p>© COPYRIGHT CHILDREN'S CANCER INSTITUTE, ABN 41 072 279 559 | PRIVACY STATEMENT | SITEMAP</p>
-<p>Address: Level 5, C25 Lowy Cancer Research Centre, Gate 9 High St, UNSW</p>
-<p>Phone: 1800 685 686</p>
-<p>Sydney NSW 2052</p>
-</div>
-<div id="foot-right">
-<ul>
- <li><a href="https://twitter.com/KidsCancerInst"><img src="home page img/twitter.png" alt="twitter"></a></li>
- <li><a href="https://www.instagram.com/childrenscancerinstitute/"><img src="home page img/ins.png" alt="twitter"></a></li>
- <li><a href="https://www.facebook.com/KidsCancerInst"><img src="home page img/fb.png" alt="twitter"></a></li>
-</ul>
-</div>
-</div>
-
 </footer>
 
 </body>
+</html>
