@@ -244,7 +244,7 @@ input[type="number"], textarea
 	box-shadow: 0 0 2px rgb(2, 173, 68);
 }
 .text-box {
-  width: 300px;
+  width: 260px;
   height: 200px;
 }
 
@@ -281,8 +281,55 @@ input[type="number"], textarea
   max-width: 968px;
   margin: 0 auto;
 }
+.button {
+  margin-top: 30px;
+  box-sizing: border-box; 
+	border: 0.2em solid rgba(0, 0, 0, 0);
+  color: rgb(251, 251, 251);
+  width: 150px;
+  height: 60px;
+  background-color: #ffd104ec;
+	padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+	transition: all 0.30s ease-in-out;
+	outline: none;	
+  border-radius: 1em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.button:hover {
+  margin-top: 30px;
+  box-sizing: border-box; 
+	border: 0.2em solid rgba(2, 173, 68, 0);
+  color: rgb(251, 251, 251);
+  width: 150px;
+  height: 60px;
+  background-color: #ffc403;
+	padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+	transition: all 0.30s ease-in-out;
+	outline: none;	
+  border-radius: 1em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
 
- 
+.button:focus {
+  margin-top: 30px;
+  box-sizing: border-box; 
+	border: 0.2em solid rgb(2, 173, 68);
+  color: rgb(251, 251, 251);
+  width: 150px;
+  height: 60px;
+  background-color: #ffa703;
+	padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+	transition: all 0.30s ease-in-out;
+	outline: none;	
+  border-radius: 1em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+
+/*footer*/
 #footer-bg {
   display: flex;
   height: auto;

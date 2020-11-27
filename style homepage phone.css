@@ -159,6 +159,7 @@ nav li{
   border-radius: 10px;
   background-color: #ffd900;
 }
+/* the following code take the code from https://blog.csdn.net/qq_32623363/article/details/77101971 as reference*/
 /*big screen*/
 .banner-container {
 	max-width: 650px;

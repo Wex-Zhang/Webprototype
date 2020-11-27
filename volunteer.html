@@ -8,7 +8,8 @@
 	<title>Children's Cancer Institute</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Fredoka+One&family=Roboto+Mono:ital,wght@1,700&family=Squada+One&display=swap" rel="stylesheet">
-
+  <html lang="en-AU">
+  <link rel="icon" type="image/png" href="favicon.png" />
   <link href="style make a difference page.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -38,11 +39,11 @@
         </li>
         <li>
           <label for="female">Medical Research</label>
-          <input type="checkbox" name="where to donate" class="single-selection" required/> 
+          <input type="checkbox" name="where to donate" class="single-selection"> 
         </li>
         <li>
           <label for="family-in-need">Family In Need</label>
-          <input type="checkbox" name="where to donate" class="single-selection" required/>
+          <input type="checkbox" name="where to donate" class="single-selection">
         </li> 
       </ul>
     </div>
@@ -89,40 +90,43 @@
           </li> 
           <li>
             <label for="gender-select" class="text">Gender</label>
-              <select name="gender" id="genders">
-                <option value="c1">Male</option>
-                <option value="c2">Female</option>
-                <option value="c3">Nonbinary</option>
-                <option value="c4">Other/Rather not say</option>
+              <select name="gender" id="genders" >
+                <option value="c1" selected disabled style="display: none;">---</option>
+                <option value="c2">Male</option>
+                <option value="c3">Female</option>
+                <option value="c4">Nonbinary</option>
+                <option value="c5">Other/Rather not say</option>
               </select>
           </li>
           <li>
             <label for="Availability" class="text">Volunteer Availability</label>
               <select name="Availability" id="volunteeravailability">
-                <option value="c1">Any Weekdays</option>
-                <option value="c2">Weekends</option>
-                <option value="c3">Morning</option>
-                <option value="c4">Afternoon</option>
-                <option value="c5">Every Second Week</option>
-                <option value="c6">Monthly</option>
-                <option value="c7">Monday</option>
-                <option value="c8">Tuesday</option>
-                <option value="c9">Wednesday</option>
-                <option value="c10">Thursday</option>
-                <option value="c11">Friday</option>
-                <option value="c12">Saturday</option>
-                <option value="c13">Sunday</option>
+                <option value="c1" selected disabled style="display: none;">---</option>
+                <option value="c2">Any Weekdays</option>
+                <option value="c3">Weekends</option>
+                <option value="c4">Morning</option>
+                <option value="c5">Afternoon</option>
+                <option value="c6">Every Second Week</option>
+                <option value="c7">Monthly</option>
+                <option value="c8">Monday</option>
+                <option value="c9">Tuesday</option>
+                <option value="c10">Wednesday</option>
+                <option value="c11">Thursday</option>
+                <option value="c12">Friday</option>
+                <option value="c13">Saturday</option>
+                <option value="c14">Sunday</option>
               </select>
           </li>
           <li>
             <label for="Education Background" class="text">Education Background</label>
               <select name="Education Background" id="EducationBackground">
-                <option value="c1">Primary School</option>
-                <option value="c2">Middle School</option>
-                <option value="c3">Diploma</option>
-                <option value="c4">Bachelor's Degree </option>
-                <option value="c5">Master's Degree </option>
-                <option value="c6">Doctoral Degree or Higher</option>
+                <option value="c1" selected disabled style="display: none;">---</option>
+                <option value="c2">Primary School</option>
+                <option value="c3">Middle School</option>
+                <option value="c4">Diploma</option>
+                <option value="c5">Bachelor's Degree </option>
+                <option value="c6">Master's Degree </option>
+                <option value="c7">Doctoral Degree or Higher</option>
               </select>
           </li>
 
@@ -147,6 +151,7 @@
       </ul>
     </div>
   </div>
+  <center><button class="button">SUBMIT</button></center>
   </form> 
 </main>
   <footer><div id="footer-bg">

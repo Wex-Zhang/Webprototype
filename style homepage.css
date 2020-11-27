@@ -161,6 +161,7 @@ nav li{
   background-color: #ffd900;
 }
 /*big screen*/
+/* the following code take the code from https://blog.csdn.net/qq_32623363/article/details/77101971 as reference*/
 .banner-container {
 	max-width: 1300px;
 	height: 650px;
