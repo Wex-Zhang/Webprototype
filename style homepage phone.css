@@ -124,7 +124,7 @@ nav li{
   width: 400px;
 }
 #cta-word {
-  
+  font-weight: bold;
   color: white;
   font-size: 20px;
   position: relative;
@@ -142,7 +142,7 @@ nav li{
   background-color: whitesmoke;
   border-radius: 10px;
   text-decoration: none;
-  color: #01965c;
+  color: #017E4E;
   padding-top: 0.3rem;
   font-weight: bold;
   position: relative;
